@@ -7,6 +7,7 @@ from keep_alive import keep_alive
 command_prefix = '!'
 
 quotes = [
+    "Terraria is better on console",
     "It's tail time",
     "GEX!!!",
     "Gex responsibly",
