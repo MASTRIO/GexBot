@@ -23,7 +23,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    await commands.user_commands(message)
+    commands.user_commands(message)
 
     # gex combo (TEMPORTARY)
     if message.content.lower() == "g" and data.gex_combo == 0:
